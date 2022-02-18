@@ -3,9 +3,14 @@
 
 ### O desenvolvimento desse bot foi criado para estudo e ser funcional no meu servidor do discord
 
+## Para garantir uma segurança, recomendo não compartilhar o token do seu bot 
+
+![image](https://user-images.githubusercontent.com/84159325/154691084-deb9898c-9c8b-4098-bd99-befacf5a391b.png)
+
 ## Comando comos: 
 #### (prefixo) play (url aqui)<br>
 #### (prefixo) top <br>
 #### (prefixo) skip <br>
 
 ![image](https://user-images.githubusercontent.com/84159325/154690472-52bae7b5-4489-4637-a4f1-3a3833d3b540.png)
+
