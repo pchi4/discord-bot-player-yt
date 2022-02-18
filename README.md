@@ -7,7 +7,7 @@
 
 ![image](https://user-images.githubusercontent.com/84159325/154691084-deb9898c-9c8b-4098-bd99-befacf5a391b.png)
 
-## Comando comos: 
+## How command:
 #### (prefixo) play (url aqui)<br>
 #### (prefixo) stop <br>
 #### (prefixo) skip <br>
