@@ -1,5 +1,5 @@
 const Discord = require("discord.js");
-const { prefix, token } = require("./config.json");
+const { prefix, token1} = require("./config.json");
 const ytdl = require("ytdl-core");
 
 
@@ -36,7 +36,7 @@ client.on("message", async message => {
     stop(message, serverQueue);
     return;
   } else {
-    message.channel.send("Você precisa digitar um comando válido!");
+    message.channel.send("Digite um comando válido!");
   }
 });
 
@@ -46,7 +46,7 @@ async function execute(message, serverQueue) {
   const voiceChannel = message.member.voice.channel;
   if (!voiceChannel)
     return message.channel.send(
-    "Você tem que estar em um canal de voz para da play na música!"
+    "O seu porra! Você tem que estar em um canal de voz para da play na música!"
     );
   const permissions = voiceChannel.permissionsFor(message.client.user);
   if (!permissions.has("CONNECT") || !permissions.has("SPEAK")) {
@@ -86,7 +86,7 @@ async function execute(message, serverQueue) {
     }
   } else {
     serverQueue.songs.push(song);
-    return message.channel.send(`${song.title} has been added to the queue!`);
+    return message.channel.send(`${song.title} foi adicionado a fila!`);
   }
 }
 
@@ -128,10 +128,5 @@ function play(guild, song) {
   serverQueue.textChannel.send(`Que a festa comece: **${song.title}**`);
 }
 
-client.on('message', (msg)=>{
-    if(msg.content === 'olá'){
-        msg.channel.send("Eai, seu bunda-mole")
-    }
-    
-})
-client.login(token);
+client.login(token1);
+
