@@ -9,8 +9,13 @@
 
 ## Comando comos: 
 #### (prefixo) play (url aqui)<br>
-#### (prefixo) top <br>
+#### (prefixo) stop <br>
 #### (prefixo) skip <br>
 
 ![image](https://user-images.githubusercontent.com/84159325/154690472-52bae7b5-4489-4637-a4f1-3a3833d3b540.png)
 
+### Lembrando que o bot vai funciona se estiver nessas versões: 
+
+![image](https://user-images.githubusercontent.com/84159325/154691500-374e2b8f-992b-4c59-8d3a-4311381fbeb7.png)
+
+## Faça um bom uso dele ;)
